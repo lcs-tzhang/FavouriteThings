@@ -5,10 +5,11 @@
 //  Created by xinyu zhang on 2024-12-11.
 //
 
-import SwiftUI
+import Foundation
 
-struct FavouriteThings{
+struct FavouriteThings:Identifiable{
     
+    let id = UUID()
     let titleName : String
     let description: String
     let imageName:String
@@ -25,3 +26,7 @@ let fries = FavouriteThings(titleName: "Fries", description: "Crispy, golden, an
 let fruitTea = FavouriteThings(titleName: "Fruit tea", description: "A refreshing and flavorful drink that brightens up my day. Its sweet and fruity taste always puts me in a good mood.", imageName: "FruitTea")
 
 let music = FavouriteThings(titleName: "Listen to Music", description: " A collection of sounds and melodies that bring me joy and relaxation. It helps me escape from reality and express my emotions.", imageName: "Music")
+
+let allFavouriteThings = [parents,niuniu,bed,fries,fruitTea,music]
+
+

@@ -16,7 +16,7 @@ struct FavouriteThingsView: View {
                     Image(providedFavouriteThings.imageName)
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 50, height: 50, alignment: .center)
+                        .frame(width: 80, height: 80, alignment: .center)
                         .clipped()
                     
                     Spacer()
