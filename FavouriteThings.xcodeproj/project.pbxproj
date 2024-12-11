@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		51F282052D09FB2600A0840C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F281FD2D09FB2600A0840C /* Preview Assets.xcassets */; };
+		51F282062D09FB2600A0840C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F281FF2D09FB2600A0840C /* Assets.xcassets */; };
+		51F282072D09FB2600A0840C /* FavouriteThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282002D09FB2600A0840C /* FavouriteThings.swift */; };
+		51F282082D09FB2600A0840C /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282012D09FB2600A0840C /* FavouriteThingsApp.swift */; };
+		51F282092D09FB2600A0840C /* FavouriteThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282022D09FB2600A0840C /* FavouriteThingsView.swift */; };
+		51F2820A2D09FB2600A0840C /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282032D09FB2600A0840C /* LandingView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		51F281DB2D09F61400A0840C /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F281FD2D09FB2600A0840C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51F281FF2D09FB2600A0840C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51F282002D09FB2600A0840C /* FavouriteThings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThings.swift; sourceTree = "<group>"; };
+		51F282012D09FB2600A0840C /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
+		51F282022D09FB2600A0840C /* FavouriteThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsView.swift; sourceTree = "<group>"; };
+		51F282032D09FB2600A0840C /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		51F281DD2D09F61400A0840C /* FavouriteThings */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FavouriteThings;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		51F281D82D09F61400A0840C /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		51F281D22D09F61400A0840C = {
 			isa = PBXGroup;
 			children = (
-				51F281DD2D09F61400A0840C /* FavouriteThings */,
+				51F282042D09FB2600A0840C /* FavouriteThings */,
 				51F281DC2D09F61400A0840C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				51F281DB2D09F61400A0840C /* FavouriteThings.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		51F281FE2D09FB2600A0840C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51F281FD2D09FB2600A0840C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51F282042D09FB2600A0840C /* FavouriteThings */ = {
+			isa = PBXGroup;
+			children = (
+				51F282012D09FB2600A0840C /* FavouriteThingsApp.swift */,
+				51F281FE2D09FB2600A0840C /* Preview Content */,
+				51F281FF2D09FB2600A0840C /* Assets.xcassets */,
+				51F282002D09FB2600A0840C /* FavouriteThings.swift */,
+				51F282022D09FB2600A0840C /* FavouriteThingsView.swift */,
+				51F282032D09FB2600A0840C /* LandingView.swift */,
+			);
+			path = FavouriteThings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				51F281DD2D09F61400A0840C /* FavouriteThings */,
 			);
 			name = FavouriteThings;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F282052D09FB2600A0840C /* Preview Assets.xcassets in Resources */,
+				51F282062D09FB2600A0840C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F282072D09FB2600A0840C /* FavouriteThings.swift in Sources */,
+				51F282082D09FB2600A0840C /* FavouriteThingsApp.swift in Sources */,
+				51F282092D09FB2600A0840C /* FavouriteThingsView.swift in Sources */,
+				51F2820A2D09FB2600A0840C /* LandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

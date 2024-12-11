@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct LandingView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack{
+            List{
+                FavouriteThingsView(providedFavouriteThings: parents)
+                FavouriteThingsView(providedFavouriteThings: niuniu)
+                FavouriteThingsView(providedFavouriteThings: bed)
+                FavouriteThingsView(providedFavouriteThings: fries)
+                FavouriteThingsView(providedFavouriteThings: fruitTea)
+                FavouriteThingsView(providedFavouriteThings: music)
+            }
+            .navigationTitle("My Favourite Things")
         }
-        .padding()
     }
 }
 

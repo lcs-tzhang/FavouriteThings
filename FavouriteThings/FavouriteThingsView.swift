@@ -8,12 +8,29 @@
 import SwiftUI
 
 struct FavouriteThingsView: View {
-    let privi
+    let providedFavouriteThings:FavouriteThings
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            VStack{
+                HStack(alignment: .top){
+                    Image(systemName: providedFavouriteThings.imageName)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    
+                    Spacer()
+                        .frame(width:20)
+                    LazyVStack(alignment:.leading){
+                        Text(providedFavouriteThings.titleName)
+                            .fontWeight(.bold)
+                            .font(.title)
+                        Text(providedFavouriteThings.description)
+                    }
+                }
+                
+            }
+        }
     }
 }
 
-#Preview {
-    FavouriteThingsView()
-}
