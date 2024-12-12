@@ -12,7 +12,11 @@ struct LandingView: View {
     var body: some View {
         NavigationStack{
             List(allFavouriteThings){currentFavouriteThings in
-                FavouriteThingsView(providedFavouriteThings:currentFavouriteThings)
+                NavigationLink{
+                    FavouriteThingsDetailView(providedFavouriteThings: currentFavouriteThings)
+                }label:{
+                    FavouriteThingsView(providedFavouriteThings:currentFavouriteThings)
+                }
                
             }
             .navigationTitle("My Favourite Things")

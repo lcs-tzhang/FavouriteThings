@@ -19,9 +19,11 @@ struct FavouriteThingsDetailView: View {
                 Spacer()
                     .frame(height:20)
                 Text(providedFavouriteThings.detailDescription1)
+                    .font(.title2)
                 Spacer()
                     .frame(height:20)
                 Text(providedFavouriteThings.detailDescription2)
+                    .font(.title2)
             }
         }
     }
