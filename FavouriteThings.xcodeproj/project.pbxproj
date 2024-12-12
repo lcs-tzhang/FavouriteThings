@@ -13,6 +13,7 @@
 		51F282082D09FB2600A0840C /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282012D09FB2600A0840C /* FavouriteThingsApp.swift */; };
 		51F282092D09FB2600A0840C /* FavouriteThingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282022D09FB2600A0840C /* FavouriteThingsView.swift */; };
 		51F2820A2D09FB2600A0840C /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F282032D09FB2600A0840C /* LandingView.swift */; };
+		51F2821D2D0B75F500A0840C /* FavouriteThingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F2821C2D0B75F500A0840C /* FavouriteThingsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		51F282012D09FB2600A0840C /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
 		51F282022D09FB2600A0840C /* FavouriteThingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsView.swift; sourceTree = "<group>"; };
 		51F282032D09FB2600A0840C /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		51F2821C2D0B75F500A0840C /* FavouriteThingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,8 @@
 		51F282042D09FB2600A0840C /* FavouriteThings */ = {
 			isa = PBXGroup;
 			children = (
-				51F2820C2D0A032E00A0840C /* Views */,
 				51F2820B2D0A032100A0840C /* Model */,
+				51F2820C2D0A032E00A0840C /* Views */,
 				51F281FE2D09FB2600A0840C /* Preview Content */,
 				51F281FF2D09FB2600A0840C /* Assets.xcassets */,
 			);
@@ -85,6 +87,7 @@
 			children = (
 				51F282032D09FB2600A0840C /* LandingView.swift */,
 				51F282022D09FB2600A0840C /* FavouriteThingsView.swift */,
+				51F2821C2D0B75F500A0840C /* FavouriteThingsDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				51F282072D09FB2600A0840C /* FavouriteThings.swift in Sources */,
 				51F282082D09FB2600A0840C /* FavouriteThingsApp.swift in Sources */,
+				51F2821D2D0B75F500A0840C /* FavouriteThingsDetailView.swift in Sources */,
 				51F282092D09FB2600A0840C /* FavouriteThingsView.swift in Sources */,
 				51F2820A2D09FB2600A0840C /* LandingView.swift in Sources */,
 			);
